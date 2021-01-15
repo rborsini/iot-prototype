@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttClient", "MqttClient\Mq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttServer", "MqttServer\MqttServer.csproj", "{1147E18B-AB16-45E5-A113-598946D0B0BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure_SimulatedDevice", "Azure_SimulatedDevice\Azure_SimulatedDevice.csproj", "{9823B48C-97B6-48DB-9F66-17A9FEF3AAAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure_SimulatedDevice", "Azure_SimulatedDevice\Azure_SimulatedDevice.csproj", "{9823B48C-97B6-48DB-9F66-17A9FEF3AAAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure_MessageListener", "Azure_MessageListener\Azure_MessageListener.csproj", "{78D3A4D4-3F24-478E-A3CB-E068A5F428B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure_MessageListener", "Azure_MessageListener\Azure_MessageListener.csproj", "{78D3A4D4-3F24-478E-A3CB-E068A5F428B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{F441751C-126C-4F72-A0C1-92AE50D5C46A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{78D3A4D4-3F24-478E-A3CB-E068A5F428B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78D3A4D4-3F24-478E-A3CB-E068A5F428B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78D3A4D4-3F24-478E-A3CB-E068A5F428B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F441751C-126C-4F72-A0C1-92AE50D5C46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F441751C-126C-4F72-A0C1-92AE50D5C46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F441751C-126C-4F72-A0C1-92AE50D5C46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F441751C-126C-4F72-A0C1-92AE50D5C46A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
